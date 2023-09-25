@@ -18,8 +18,9 @@ def max_2_sum arr
   end
 end
 
+# Define a method sum_to_n?(array, n) that returns true if any two elements in the array sum to n.
 def sum_to_n? arr, n
-  # YOUR CODE HERE
+  array.combination(2).any? {|a, b| a + b == n}
 end
 
 # Part 2
