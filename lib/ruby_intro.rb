@@ -25,16 +25,29 @@ end
 
 # Part 2
 
+# Define a method hello(name) that says hello back. :)
 def hello(name)
-  # YOUR CODE HERE
+  "Hello, #{name}"
 end
 
+# Define a method that checks if a string starts with a consonant.
 def starts_with_consonant? s
-  # YOUR CODE HERE
+  # Check if the string is empty or the first character is a non-alphabetical character. 
+  return false if s.empty? || !s[0].match?(/[A-Za-z]/)
+
+  # Convert the first character to lowercase and check if it's a consonant.
+  first_char = s[0].downcase
+  !['a', 'e', 'i', 'o', 'u'].include?(first_char)
 end
 
+# Define a that checks if a string represents a binary multiple of 4.
 def binary_multiple_of_4? s
-  # YOUR CODE HERE
+  # Check if the string is empty or contains non-binary characters.
+  return false if s.empty? || !s.match?(/^[01]+$/)
+
+  #Convert the binary string to an integer and check if it's a multiple of 4. 
+  binary_integer = s.to_i(2)
+  binary_integer % 4 == 0
 end
 
 # Part 3
