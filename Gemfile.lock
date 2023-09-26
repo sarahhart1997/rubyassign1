@@ -18,12 +18,14 @@ GEM
 
 PLATFORMS
   ruby
+  x64-mingw-ucrt
 
 DEPENDENCIES
+  bundler (~> 2.4)
   rspec (~> 3.8)
 
 RUBY VERSION
-   ruby 2.5.3p105
+   ruby 3.2.2p53
 
 BUNDLED WITH
-   1.17.1
+   2.4.19
