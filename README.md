@@ -1,10 +1,14 @@
-Ruby Intro
-=============
+Test Case Completion
+====================
+![No Errors](https://github.com/sarahhart1997/rubyassign1/assets/92615153/c72666a1-40b4-408d-b428-938bd6e3be93)
+
+
+
+Assignment Instructions RuBy Intro
+=======================
 
 This 3-part homework gives some basic practice in Ruby as well as
 getting you accustomed to making testing a regular part of your workflow.
-
-**NOTE: Do not clone this repo to your workspace. Fork it first, then clone your fork.**
 
 Learning Goals
 --------------
